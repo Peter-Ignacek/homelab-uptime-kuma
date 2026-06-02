@@ -32,4 +32,4 @@ Both instances run as non-Docker installations inside Proxmox containers.
 
 - [Architecture](architecture.md)
 - [Update Process](update-process.md)
-- [System Service](systemd-service.md)
+- [Systemd Service](systemd-service.md)
