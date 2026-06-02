@@ -46,18 +46,23 @@ Instance Architecture
 
 Each Uptime Kuma instance runs inside a Proxmox container.
 
--Component	Description
+Component	Description
 
--Platform	Proxmox VE
+Platform	Proxmox VE
 
--Container type	LXC
+Container type	LXC
 
--Runtime	Node.js / npm
--Service manager	systemd
--Application path	/opt/uptime-kuma
--Service name	uptime-kuma.service
--Installation type	Non-Docker
--Current version	2.4.0
+Runtime	Node.js / npm
+
+Service manager	systemd
+
+Application path	/opt/uptime-kuma
+
+Service name	uptime-kuma.service
+
+Installation type	Non-Docker
+
+Current version	2.4.0
 
 Docker and PM2 are not used in this setup.
 
@@ -68,24 +73,38 @@ The DE instance monitors services and devices related to the Germany / Mettmann 
 
 Typical monitored systems:
 
-Proxmox VE
-Home Assistant DE
-Plex Media Server
-Nginx Proxy Manager
-AdGuard
-Network devices
-Local hosts
-Public status pages
-🇵🇱 Uptime Kuma PL
+-Proxmox VE
+
+-Home Assistant DE
+
+-Plex Media Server
+
+-Nginx Proxy Manager
+
+-AdGuard
+
+-Network devices
+
+-Local hosts
+
+-Public status pages
+
+-🇵🇱 Uptime Kuma PL
 
 The PL instance monitors services and devices related to the Poland homelab.
 
 Typical monitored systems:
 
-Proxmox VE
-Home Assistant PL
-Backup services
-NAS / storage services
-Network devices
-Local hosts
-Public status pages
+-Proxmox VE
+
+-Home Assistant PL
+
+-Backup services
+
+-NAS / storage services
+
+-Network devices
+
+-Local hosts
+
+-Public status pages
