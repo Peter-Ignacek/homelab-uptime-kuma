@@ -81,16 +81,10 @@ The PL instance monitors services and devices related to the Poland homelab.
 
 Typical monitored systems:
 
--Proxmox VE
-
--Home Assistant PL
-
--Backup services
-
--NAS / storage services
-
--Network devices
-
--Local hosts
-
--Public status pages
+* Proxmox VE
+* Home Assistant PL
+* Backup services
+* NAS / storage services
+* Network devices
+* Local hosts
+* Public status pages
