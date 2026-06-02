@@ -4,16 +4,17 @@ Uptime Kuma is managed by systemd.
 
 Useful commands:
 
-``````
+````
 systemctl status uptime-kuma
 systemctl start uptime-kuma
 systemctl stop uptime-kuma
 systemctl restart uptime-kuma
 journalctl -u uptime-kuma -f
 ````
-`
-The service runs the application through npm:
 
+The service runs the application through npm:
+````
 npm start
 npm run start-server
 node server/server.js
+````
