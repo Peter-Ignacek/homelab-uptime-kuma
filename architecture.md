@@ -61,29 +61,21 @@ Each Uptime Kuma instance runs inside a Proxmox container.
 Docker and PM2 are not used in this setup.
 
 Locations
+
 🇩🇪 Uptime Kuma DE
 
 The DE instance monitors services and devices related to the Germany / Mettmann homelab.
 
 Typical monitored systems:
 
--Proxmox VE
-
--Home Assistant DE
-
--Plex Media Server
-
--Nginx Proxy Manager
-
--AdGuard
-
--Network devices
-
--Local hosts
-
--Public status pages
-
--🇵🇱 Uptime Kuma PL
+Proxmox VE
+Home Assistant DE
+Plex Media Server
+Nginx Proxy Manager
+AdGuard
+Network devices
+Local hosts
+Public status pages
 
 The PL instance monitors services and devices related to the Poland homelab.
 
