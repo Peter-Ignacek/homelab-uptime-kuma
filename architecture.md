@@ -47,8 +47,11 @@ Instance Architecture
 Each Uptime Kuma instance runs inside a Proxmox container.
 
 -Component	Description
+
 -Platform	Proxmox VE
+
 -Container type	LXC
+
 -Runtime	Node.js / npm
 -Service manager	systemd
 -Application path	/opt/uptime-kuma
