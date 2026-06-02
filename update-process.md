@@ -28,4 +28,10 @@ systemctl start uptime-kuma
 systemctl status uptime-kuma
 
 
+Verification
 
+
+systemctl status uptime-kuma
+grep '"version"' /opt/uptime-kuma/package.json
+journalctl -u uptime-kuma -n 50 --no-pager
+df -h /
