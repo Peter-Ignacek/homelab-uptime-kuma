@@ -26,7 +26,6 @@ npm run setup
 
 systemctl start uptime-kuma
 systemctl status uptime-kuma
-´´´´
 ```
 
 
