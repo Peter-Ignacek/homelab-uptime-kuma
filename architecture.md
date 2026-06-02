@@ -68,14 +68,14 @@ The DE instance monitors services and devices related to the Germany / Mettmann 
 
 Typical monitored systems:
 
-Proxmox VE
-Home Assistant DE
-Plex Media Server
-Nginx Proxy Manager
-AdGuard
-Network devices
-Local hosts
-Public status pages
+* Proxmox VE
+* Home Assistant DE
+* Plex Media Server
+* Nginx Proxy Manager
+* AdGuard
+* Network devices
+* Local hosts
+* Public status pages
 
 The PL instance monitors services and devices related to the Poland homelab.
 
