@@ -7,7 +7,7 @@ Docker and PM2 are not used.
 
 Update Steps
 
-´´´´cd /opt/uptime-kuma
+````cd /opt/uptime-kuma
 
 systemctl stop uptime-kuma
 
@@ -27,5 +27,6 @@ npm run setup
 systemctl start uptime-kuma
 systemctl status uptime-kuma
 ´´´´
+````
 
 
