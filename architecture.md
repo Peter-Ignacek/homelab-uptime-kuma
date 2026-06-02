@@ -88,3 +88,32 @@ Typical monitored systems:
 * Network devices
 * Local hosts
 * Public status pages
+
+
+
+Service Layout
+
+Uptime Kuma is installed in:
+````
+/opt/uptime-kuma
+````
+
+Important directories:
+
+````
+/opt/uptime-kuma/
+├── data/              # Database and configuration
+├── dist/              # Frontend files
+├── server/            # Backend server
+├── node_modules/      # Node.js dependencies
+├── package.json       # Application metadata / version
+└── .git/              # Git repository after conversion
+
+````
+The most important folder is:
+````
+/opt/uptime-kuma/data
+````
+
+This folder contains the Uptime Kuma database and configuration.
+It must be backed up before every update.
