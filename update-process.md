@@ -50,6 +50,11 @@ cp -a data data-backup-$(date +%F-%H%M)
 
 The data folder contains the important database and configuration.
 
+## Notes on Duplicated Monitors
+
+If a monitor is intentionally duplicated in both Uptime Kuma instances, keep the monitor names and target URLs aligned so the DE and PL views stay comparable after updates.
+The duplication is intentional and should be preserved during maintenance unless the underlying service model changes.
+
 
 ````
 ### `instances/uptime-kuma-de.md`

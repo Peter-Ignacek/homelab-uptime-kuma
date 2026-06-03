@@ -10,6 +10,7 @@ This repository documents my Uptime Kuma monitoring setup for two homelab locati
 - 🇵🇱 Uptime Kuma PL
 
 Both instances run as non-Docker installations inside Proxmox containers.
+Some checks are intentionally duplicated across both instances when the same service or dependency needs to be visible from both locations.
 
 ## Tech Stack
 
@@ -33,6 +34,7 @@ Both instances run as non-Docker installations inside Proxmox containers.
 - [Architecture](architecture.md)
 - [Update Process](update-process.md)
 - [System Service](System-service.md)
+- [Duplicati Backup Monitoring](duplicati-backup-monitoring.md)
 
 
 ## Status & Screenshots

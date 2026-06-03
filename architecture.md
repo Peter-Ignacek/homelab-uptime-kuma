@@ -11,6 +11,17 @@ The setup is split into two independent monitoring instances:
 
 Both instances run independently, so each location can monitor its own local infrastructure and services.
 
+## Monitoring Model
+
+The two instances are split by geography, not by feature set.
+
+- A monitor is created in the location where the service is hosted or where the failure should be detected first.
+- If the same service matters in both places, the monitor can be duplicated in DE and PL on purpose.
+- These duplicates are not accidental copies; they provide two viewpoints on the same service, which helps confirm whether a problem is local, regional, or global.
+- Public status pages then show the same logical service from each site without mixing the alerts.
+
+This keeps the documentation aligned with the operational reality: one system, two views, each with its own context.
+
 ---
 
 ## High-Level Design
