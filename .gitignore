@@ -1,0 +1,55 @@
+# Secrets and local environment
+.env
+.env.*
+*.env
+*.secret
+*.secrets
+secrets.*
+credentials.*
+token.*
+tokens.*
+apikey.*
+api_key.*
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+known_hosts
+
+# Uptime Kuma runtime data
+data/
+kuma.db*
+*.sqlite
+*.sqlite3
+*.db
+*.db-shm
+*.db-wal
+docker-compose.override.yml
+compose.override.yml
+
+# Backups and exports
+backups/
+backup/
+exports/private/
+*.bak
+*.backup
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.7z
+*.rar
+
+# Logs and temporary files
+logs/
+*.log
+*.tmp
+*.temp
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
