@@ -32,7 +32,7 @@ Document how Duplicati backup jobs are monitored through Uptime Kuma so the setu
 
 KUMA_URL="TU_WKLEJ_PUSH_URL_Z_UPTIME_KUMA"
 RESULT="${DUPLICATI__PARSED_RESULT:-Unknown}"
-LOGFILE="/root/scripts/duplicati-kuma.log"
+LOGFILE="/<ROOT_GUARDIAN>/scripts/duplicati-kuma.log"
 
 echo "$(date) | NAZWA_JOBA | Result: $RESULT" >> "$LOGFILE"
 
@@ -47,9 +47,9 @@ fi
 
 ## Final Scripts
 
-- `/root/scripts/kuma-paperless-hetzner.sh`
-- `/root/scripts/kuma-paperless-local-ssd.sh`
-- `/root/scripts/kuma-paperless-ugreen-pl.sh`
+- `/<ROOT_GUARDIAN>/scripts/kuma-paperless-hetzner.sh`
+- `/<ROOT_GUARDIAN>/scripts/kuma-paperless-local-ssd.sh`
+- `/<ROOT_GUARDIAN>/scripts/kuma-paperless-ugreen-pl.sh`
 
 ## Duplicati Setup
 
@@ -60,17 +60,17 @@ For each backup job:
 
 Examples:
 
-- `Paperless_HETZNER` -> `/root/scripts/kuma-paperless-hetzner.sh`
-- `Paperless_Local_SSD` -> `/root/scripts/kuma-paperless-local-ssd.sh`
-- `Paperless_UGREEN_PL` -> `/root/scripts/kuma-paperless-ugreen-pl.sh`
+- `Paperless_HETZNER` -> `/<ROOT_GUARDIAN>/scripts/kuma-paperless-hetzner.sh`
+- `Paperless_Local_SSD` -> `/<ROOT_GUARDIAN>/scripts/kuma-paperless-local-ssd.sh`
+- `Paperless_UGREEN_PL` -> `/<ROOT_GUARDIAN>/scripts/kuma-paperless-ugreen-pl.sh`
 
 ## Test
 
 Manual test for one job:
 
 ```bash
-DUPLICATI__PARSED_RESULT=Success /root/scripts/kuma-paperless-local-ssd.sh
-cat /root/scripts/duplicati-kuma.log
+DUPLICATI__PARSED_RESULT=Success /<ROOT_GUARDIAN>/scripts/kuma-paperless-local-ssd.sh
+cat /<ROOT_GUARDIAN>/scripts/duplicati-kuma.log
 ```
 
 ## Conclusions
