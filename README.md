@@ -1,4 +1,4 @@
-# Homelab Uptime Kuma
+﻿# Homelab Uptime Kuma
 
 Self-hosted Uptime Kuma monitoring setup for my Proxmox-based homelab infrastructure in Germany and Poland.
 
@@ -43,5 +43,5 @@ Public status pages for both Uptime Kuma instances:
 
 | Instance | Location | Status Page | Screenshot |
 |---|---|---|---|
-| Uptime Kuma DE | Germany | [Open DE Status Page](https://kuma.de.ignacek.com/status/home) | [Dashboard DE](screenshots/uptime-kuma-dashboard-de.png) |
-| Uptime Kuma PL | Poland | [Open PL Status Page](https://kuma.pl.ignacek.com/status/home) | [Dashboard PL](screenshots/uptime-kuma-dashboard-pl.png) |
+| Uptime Kuma DE | Germany | [Open DE Status Page](https://status-de.example.com/status/home) | [Dashboard DE](screenshots/uptime-kuma-dashboard-de.png) |
+| Uptime Kuma PL | Poland | [Open PL Status Page](https://status-pl.example.com/status/home) | [Dashboard PL](screenshots/uptime-kuma-dashboard-pl.png) |
